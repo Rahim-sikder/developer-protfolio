@@ -20,7 +20,7 @@
    background: #FFF8F3;
    background-image: url('../images/header_bg.png'),url('../images/developer.png');
    background-repeat: no-repeat;
-   background-position: bottom right,left;
+   background-position:bottom right,left;
 
 
 }
@@ -50,7 +50,8 @@ nav li{
    display:flex;
    align-items:center;
    /* margin: 0px 250px 0px 300px; */
-    margin: 150px 200px;
+   margin: 150px 200px;
+   
 }
 .banner-title{
    
@@ -68,6 +69,7 @@ nav li{
    color: #757575;
    font-size:18px;
    margin-bottom: 30PX;
+   margin-right: 150px;
 }
 /* Main section */
 main{
@@ -180,7 +182,7 @@ color:#757575;
    text-align: center;
    
 }
-.contact input[type="text"],input[type="email"] textarea{
+.contact input, textarea[type="text"],input[type="email"] textarea{
    margin-bottom: 24px;
    border:0;
    width:100%;
